@@ -5,6 +5,7 @@
     <title>Hello thymeleaf</title>
 </head>
 <body>
-    <span th:text="|Hello thymeleaf|">Hello html</span>
+    <!--/*@thymesVar id="message" type="java"*/-->
+    <span th:text="${message}">Hello html</span>
 </body>
 </html>
